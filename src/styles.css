@@ -1,0 +1,169 @@
+html {
+    font-size: 16px;
+    background-color: rgb(247, 251, 255);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto'sans-serif;
+    font-size: 1rem;
+    color: #444444; 
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(https://images.pexels.com/photos/18968283/pexels-photo-18968283/free-photo-of-skyscraper-in-city-downtown-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ; */
+}
+
+h1, h2, h3, h4, h4 ,h5,h6 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+ h1 { font-size: 2.5rem;}
+ h2 { font-size: 2rem;}
+ h3 { font-size: 1.5rem;}
+ h4 { font-size: 1rem;}
+ h5 { font-size: 1.25rem;}
+ h6 { font-size: 1rem;}
+
+
+a {
+    text-decoration: none;
+    color: #3B82F6;
+}
+a:hover , a:focus{
+    color:#4338CA ;
+}
+#navbar {
+    padding: 8px;
+    margin: 0;
+}
+
+#banner {
+    object-fit: cover;
+}
+h1 {
+    text-align: Center;
+    color: darkblue;
+} 
+
+#banner {
+    width: 100%;
+}
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+
+}
+
+#Description {
+    width: 50%;
+    padding: 0 8px;
+    font-size: 1.25rem;
+}
+
+#team {
+    width: 50%;
+}
+
+#team-image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#jobs-table {
+    width: 800px;
+    border:  1px solid grey;
+    border-collapse: collapse;
+    color: #222222;
+}
+
+.jobs-header-row th {
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: #F3E8FF;
+    text-align: center;
+}
+.jobs-data-row td {
+    border: 1px solid #4b035f;
+    padding: 6px;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: #FAF5FF;
+}
+
+
+h2 {
+    
+    text-align: center;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#application-form div {
+    margin-top: 18px;
+}
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input, select ,textarea{
+    padding: 8px;
+    font-size: 1rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    background-color: rgb(244, 237, 237);
+}
+
+.group-form textarea {
+    width:80%;
+    font-family: 'Roboto' sans-serif;
+}
+
+.group-form input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+.group-form input[type="submit"] {
+    color: rgb(250, 247, 247);
+    font-weight: 600;
+    padding: 16px;
+    cursor: pointer;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+h3 {
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+
+#footer {
+    background-color:#E2E8F0;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+.copyright {
+    color:#4f5561;
+    font-size: 0.75rem;
+}
